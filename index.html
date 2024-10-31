@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- <script src="js/jquery-2.1.3.min.js"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>じゃんけんアプリ</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>じゃんけんアプリ（阿部寛Ver.）</h1>
+    </header>
+
+    <main>
+        <h2>３つのうち、１つを選んでください</h2>
+        <ul id="user_choice">
+            <li id="rock">グー</li>
+            <li id="scissors">チョキ</li>
+            <li id="paper">パー</li>
+        </ul>
+        <div>コンピュータの出した手は？「<span id="computer_choice">なに？</span>」</div>
+        <div id="judgment">結果は・・・</div>
+        <div id="re_challenge"></div>
+        <div id="clr_btn_wrap">
+            <button id="clr_btn" type="button" style="display:none">再挑戦</button>
+        </div>
+    </main>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- 必ず自分で作成した test.jsよりも上に貼り付ける -->
+    <script src="js/test.js"></script>
+</body>
+
+</html>
